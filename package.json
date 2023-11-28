@@ -1,0 +1,26 @@
+{
+  "name": "amboss-magma-automation",
+  "version": "1.0.0",
+  "description": "This project will automate parts of the magma workflow to improve easy of use",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development node --experimental-modules --es-module-specifier-resolution=node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FergusJames212/Amboss-Magma-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FergusJames212/Amboss-Magma-Automation/issues"
+  },
+  "homepage": "https://github.com/FergusJames212/Amboss-Magma-Automation#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv-flow": "^4.0.1",
+    "express": "^4.18.2"
+  }
+}
